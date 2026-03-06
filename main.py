@@ -202,3 +202,6 @@ for num in list1:
         max2 = num
         
 print(f"Second largest number in the list is = {max2}")
+
+
+# Q21
