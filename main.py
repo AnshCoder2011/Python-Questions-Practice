@@ -204,4 +204,15 @@ for num in list1:
 print(f"Second largest number in the list is = {max2}")
 
 
-# Q21
+# Q21. Write a program to count the number of digits in an integer.
+
+num = int(input("Enter a number : "))
+
+count = 0
+
+while num != 0:
+    rem = num % 10
+    count += 1
+    num = num // 10
+    
+print(f"Number of digits in {num} is = {count}")
